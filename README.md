@@ -17,3 +17,52 @@ Insta Travel is a responsive web application designed to assist foreign national
 ---
 
 ## 📂 Project Structure
+/* Base styles already defined above */
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  header {
+    padding: 50px 15px;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  nav a {
+    display: inline-block;
+    margin: 8px;
+    font-size: 0.95rem;
+  }
+  section {
+    padding: 40px 15px;
+  }
+  .cards {
+    grid-template-columns: 1fr; /* stack cards vertically */
+  }
+  .card {
+    padding: 15px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  header {
+    padding: 40px 10px;
+  }
+  header h1 {
+    font-size: 1.6rem;
+  }
+  nav {
+    padding: 8px;
+  }
+  nav a {
+    margin: 6px;
+    font-size: 0.85rem;
+  }
+  a.button {
+    padding: 10px 18px;
+    font-size: 0.9rem;
+  }
+}
