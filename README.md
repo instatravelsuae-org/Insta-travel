@@ -164,7 +164,7 @@ Insta Travel is a responsive web application designed to assist foreign national
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: info@instatravelsuae.com<br>WhatsApp: +971 XX XXX XXXX</p>
-    <a class="btn" href="mailto:info@instatravelsuae.com">Email Us</a>
+    <a class="btn" href="mailto:info@instatravelsuae@gmail.com">Email Us</a>
   </section>
 
   <footer>© 2026 Insta Travel. All rights reserved.</footer>
