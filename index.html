@@ -1,157 +1,91 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Insta Travels UAE</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
+<title>Insta Travels UAE | Work Permit & Visa Services</title>
 
-body{
-background:#f4f9ff;
-color:#333;
-}
+<link rel="stylesheet" href="style.css">
 
-header{
-background:#0b5ed7;
-color:white;
-padding:20px 50px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-header h1{
-font-size:30px;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-font-weight:bold;
-}
-
-.hero{
-height:600px;
-background:url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05') center/cover;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-color:white;
-}
-
-.hero div{
-background:rgba(0,0,0,.55);
-padding:40px;
-border-radius:10px;
-}
-
-.hero h2{
-font-size:45px;
-margin-bottom:15px;
-}
-
-.hero p{
-font-size:20px;
-margin-bottom:20px;
-}
-
-.hero button{
-padding:15px 35px;
-border:none;
-background:#0b5ed7;
-color:white;
-font-size:18px;
-cursor:pointer;
-border-radius:5px;
-}
-
-section{
-padding:60px 10%;
-}
-
-.services{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
-
-.card{
-background:white;
-padding:25px;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,.15);
-text-align:center;
-}
-
-.card h3{
-color:#0b5ed7;
-margin-bottom:15px;
-}
-
-.gallery{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.gallery img{
-width:100%;
-height:220px;
-object-fit:cover;
-border-radius:10px;
-}
-
-.contact{
-text-align:center;
-background:#0b5ed7;
-color:white;
-padding:50px;
-}
-
-footer{
-background:#083b8a;
-color:white;
-text-align:center;
-padding:20px;
-}
-</style>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
+
 <body>
 
 <header>
 
+<div class="logo">
+
 <h1>Insta Travels UAE</h1>
 
+</div>
+
 <nav>
-<a href="#">Home</a>
-<a href="#services">Services</a>
-<a href="#gallery">Gallery</a>
-<a href="#contact">Contact</a>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#services">Services</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
 </nav>
 
 </header>
 
-<section class="hero">
+<section id="home" class="hero">
 
-<div>
+<div class="overlay">
 
-<h2>Your Gateway To The UAE</h2>
+<h2>Your Trusted UAE Travel Partner</h2>
 
-<p>Professional UAE Work Permit, Visa & Travel Processing Services</p>
+<p>
 
-<button onclick="location.href='#contact'">
-Contact Us
-</button>
+Professional UAE Work Permit Processing,
+
+Employment Visa Assistance,
+
+Tourist Visas and Travel Consultation.
+
+</p>
+
+<div class="buttons">
+
+<a href="mailto:Instatravelsuae@gmail.com?subject=UAE Work Permit Inquiry" class="email-btn">
+
+<i class="fa-solid fa-envelope"></i>
+
+Email Us
+
+</a>
+
+<a href="https://t.me/Instatravelsuae"
+
+target="_blank"
+
+class="telegram-btn">
+
+<i class="fa-brands fa-telegram"></i>
+
+Telegram
+
+</a>
+
+</div>
 
 </div>
 
@@ -159,73 +93,335 @@ Contact Us
 
 <section id="services">
 
-<h2 style="text-align:center;color:#0b5ed7;margin-bottom:40px;">Our Services</h2>
+<h2>Our Services</h2>
 
-<div class="services">
+<div class="service-grid">
 
-<div class="card">
+<div class="service-box">
+
+<i class="fa-solid fa-passport"></i>
+
 <h3>UAE Work Permit</h3>
-<p>Fast and reliable work permit processing for foreigners wishing to work in the UAE.</p>
+
+<p>
+
+Fast and reliable processing for foreigners wishing to work in the UAE.
+
+</p>
+
 </div>
 
-<div class="card">
+<div class="service-box">
+
+<i class="fa-solid fa-plane-departure"></i>
+
 <h3>Tourist Visa</h3>
-<p>Quick UAE tourist visa application and approval assistance.</p>
+
+<p>
+
+Quick tourist visa processing with professional guidance.
+
+</p>
+
 </div>
 
-<div class="card">
+<div class="service-box">
+
+<i class="fa-solid fa-briefcase"></i>
+
+<h3>Employment Visa</h3>
+
+<p>
+
+Complete documentation and application assistance.
+
+</p>
+
+</div>
+
+<div class="service-box">
+
+<i class="fa-solid fa-file-circle-check"></i>
+
 <h3>Document Processing</h3>
-<p>Professional handling and verification of travel documents.</p>
-</div>
 
-<div class="card">
-<h3>Travel Consultation</h3>
-<p>Expert guidance for your relocation and travel plans.</p>
+<p>
+
+Professional verification and travel documentation services.
+
+</p>
+
 </div>
 
 </div>
 
 </section>
+<!-- GALLERY SECTION -->
 
 <section id="gallery">
 
-<h2 style="text-align:center;color:#0b5ed7;margin-bottom:40px;">Explore UAE</h2>
+<h2>Explore Dubai</h2>
 
 <div class="gallery">
 
-<img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c">
+<img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c" alt="Dubai Skyline">
 
-<img src="https://images.unsplash.com/photo-1526495124232-a04e1849168c">
+<img src="https://images.unsplash.com/photo-1526495124232-a04e1849168c" alt="Burj Khalifa">
 
-<img src="https://images.unsplash.com/photo-1518684079-3c830dcef090">
+<img src="https://images.unsplash.com/photo-1518684079-3c830dcef090" alt="Dubai Marina">
 
-<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Palm Jumeirah">
 
 </div>
 
 </section>
 
-<section class="contact" id="contact">
+<!-- ABOUT -->
 
-<h2>Contact Insta Travels UAE</h2>
+<section id="about">
 
-<br>
+<h2>Why Choose Insta Travels UAE?</h2>
 
-<p>Email:</p>
+<div class="about-box">
 
-<h3>Instatravelsuae@gmail.com</h3>
+<p>
 
-<br>
+At <strong>Insta Travels UAE</strong>, we specialize in helping clients from around the world obtain UAE work permits, employment visas, tourist visas, and travel documentation.
 
-<p>We are committed to helping you travel, work and relocate to the UAE with ease.</p>
+Our experienced team provides professional guidance throughout every step of the application process, ensuring a smooth and reliable experience.
+
+</p>
+
+<ul>
+
+<li>✔ Professional Visa Assistance</li>
+
+<li>✔ Fast Document Processing</li>
+
+<li>✔ Reliable Customer Support</li>
+
+<li>✔ Transparent Service</li>
+
+<li>✔ Trusted Travel Consultants</li>
+
+</ul>
+
+</div>
 
 </section>
 
+<!-- TESTIMONIALS -->
+
+<section id="testimonials">
+
+<h2>What Our Clients Say</h2>
+
+<div class="testimonial-grid">
+
+<div class="testimonial">
+
+<p>
+
+★★★★★
+
+</p>
+
+<p>
+
+"My UAE work permit was processed smoothly. Highly recommended!"
+
+</p>
+
+<h4>- Michael A.</h4>
+
+</div>
+
+<div class="testimonial">
+
+<p>
+
+★★★★★
+
+</p>
+
+<p>
+
+"The staff guided me through every document needed for my visa."
+
+</p>
+
+<h4>- Sarah K.</h4>
+
+</div>
+
+<div class="testimonial">
+
+<p>
+
+★★★★★
+
+</p>
+
+<p>
+
+"Professional service from start to finish."
+
+</p>
+
+<h4>- David O.</h4>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section id="faq">
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+
+<h3>How long does UAE work permit processing take?</h3>
+
+<p>
+
+Processing times vary depending on the employer, visa category, and government requirements.
+
+</p>
+
+</div>
+
+<div class="faq-item">
+
+<h3>Can I apply from outside the UAE?</h3>
+
+<p>
+
+Yes. We assist eligible applicants applying from many countries.
+
+</p>
+
+</div>
+
+<div class="faq-item">
+
+<h3>How do I contact you?</h3>
+
+<p>
+
+Use the Email Us button or contact us through Telegram.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<textarea placeholder="Your Message"></textarea>
+
+<button type="submit">
+
+Send Inquiry
+
+</button>
+
+</form>
+
+<br>
+
+<a class="email-btn"
+
+href="mailto:Instatravelsuae@gmail.com?subject=UAE Work Permit Inquiry">
+
+📧 Email Us
+
+</a>
+
+<a class="telegram-btn"
+
+href="https://t.me/Instatravelsuae"
+
+target="_blank">
+
+✈ Telegram
+
+</a>
+
+</section>
+
+<!-- GOOGLE MAP -->
+
+<section>
+
+<h2>Our Location</h2>
+
+<iframe
+
+src="https://maps.google.com/maps?q=Dubai&t=&z=12&ie=UTF8&iwloc=&output=embed"
+
+width="100%"
+
+height="450"
+
+style="border:0;"
+
+allowfullscreen
+
+loading="lazy">
+
+</iframe>
+
+</section>
+
+<!-- FOOTER -->
+
 <footer>
 
+<h3>Insta Travels UAE</h3>
+
+<p>Your Trusted UAE Travel & Work Permit Partner</p>
+
+<p>
+
+📧 Instatravelsuae@gmail.com
+
+</p>
+
+<p>
+
+✈ Telegram:
+
+<a href="https://t.me/Instatravelsuae">
+
+@Instatravelsuae
+
+</a>
+
+</p>
+
+<p>
+
 © 2026 Insta Travels UAE. All Rights Reserved.
+
+</p>
 
 </footer>
 
 </body>
+
 </html>
